@@ -58,9 +58,9 @@ $geo_data_query = 'select pin, officename, taluk, district, state, lat as latitu
             function initialize() {
                 
                 //var myLatlng = new google.maps.LatLng(42.81,-70.81);
-                var myLatlng = new google.maps.LatLng(26.1445169,91.7362365);
+                var myLatlng = new google.maps.LatLng(21.24445343017578,78.89452362060547);
                 var mapOptions = {
-                    zoom: 7,
+                    zoom: 5,
                     //mapTypeId: google.maps.MapTypeId.TERRAIN,
                     center: myLatlng
                 }

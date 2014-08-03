@@ -11,7 +11,7 @@ fetch_lat_lon_by_state();
 //fetch_lat_lon_by_state('ODISHA');
 //fetch_lat_lon_by_state('NAGALAND');
 
-echo "\n\n\n\n\033[32m DONE \033[37m\r\n\n\n\n";
+echo "\n\n\n\n\033[32m ALL COMPLETED \033[37m\r\n\n\n\n";
 
 mysql_close($link);
 function fetch_lat_lon_by_state() {
